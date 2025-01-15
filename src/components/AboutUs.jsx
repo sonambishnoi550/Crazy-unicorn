@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center xl:pt-[212px] lg:pt-[160px] md:pt-[100px] pt-16 xl:pb-[231px] g:pt-[160px] md:pb-[100px] pb-16 ">
+    <div className="flex items-center justify-center xl:pt-[212px] lg:pt-[160px] md:pt-[100px] pt-16 xl:pb-[231px] g:pt-[160px] md:pb-[100px] pb-16 ">
       <div className="container">
         <div className="lg:flex max-lg:flex-col items-center justify-between">
           <div className="lg:w-6/12 w-full flex justify-center">
@@ -49,7 +49,7 @@ const AboutUs = () => {
                 gravida potenti sed. Mauris.
               </p>
               <div className="bg-white md:max-w-[238px] max-w-[180px] border border-black flex justify-center rounded-xl relative">
-              <button className="text-gradient  md:text-custom-3xl text-2xl font-bold py-[12.3px]  ">
+              <button className="text-gradient  md:text-custom-3xl text-2xl font-bold py-5  ">
                 MINT NOW
                 <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 top-[16%] left-[5%]"/>
                 </button>
