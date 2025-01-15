@@ -49,11 +49,11 @@ const AboutUs = () => {
                 gravida potenti sed. Mauris.
               </p>
               <div className="bg-white md:max-w-[238px] max-w-[180px] border border-black flex justify-center rounded-xl relative">
-              <button className="text-gradient  md:text-custom-3xl text-2xl font-bold py-5  ">
-                MINT NOW
-                <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 top-[16%] left-[5%]"/>
+                <button className="text-gradient  md:text-custom-3xl text-2xl font-bold lg:py-5 py-3">
+                  MINT NOW
+                  <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 top-[16%] left-[5%]" />
                 </button>
-                </div>
+              </div>
             </div>
           </div>
         </div>
