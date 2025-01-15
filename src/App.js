@@ -13,16 +13,17 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <><PreLoader />
+    <>
+      {/* <PreLoader /> */}
       <Header/>
       <Hero />
       <OurStory />
-      <AboutUs />
-      <UnicornRoadmap />
+      {/* <AboutUs />
+      <UnicornRoadmap /> */}
       <UnicornTeam />
       <Faq />
-      <LatestNews />
-      <Footer/>
+      {/* <LatestNews />
+      <Footer/> */}
     </>
   )
 }

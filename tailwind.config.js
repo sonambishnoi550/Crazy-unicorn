@@ -13,11 +13,12 @@ module.exports = {
           md: "768px",
           lg: "1024px",
           xl: "1140px",
+          "2xl": "1328px"
         },
       },
 
       fontFamily: {
-        'Pinky': "'Pinky Unicorn', sans-serif",
+        'pinky': "'pinky-unicorn', sans-serif",
       },
       fontSize: {
         'custom-xl': '22px',
@@ -25,14 +26,14 @@ module.exports = {
         'custom-3xl': '35px',
         'custom-4xl': '40px',
         'custom-8xl': '70px',
-      
-       
+
+
       },
       lineHeight: {
         'custom-xl': '147%',
         'custom-2xl': '150%',
         'custom-3xl': '174%',
-       
+
       },
       colors: {
         "skyblue": '#24FAFF',
@@ -49,11 +50,13 @@ module.exports = {
         "brightpink": '#FF488A',
         "darkpink": '#B53E6B',
         "darkblue": '#080952',
-        "dustygreen": '#39A3AD'
+        "dustygreen": '#39A3AD',
+        "pink": '#EA88FB',
+        "offwhite": '#F9F4FD'
       },
       backgroundImage: {
         'bg': "url('/public/assets/images/png/body-image.png')",
-        
+
       }
     },
   },
