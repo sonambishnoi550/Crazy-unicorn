@@ -18,7 +18,7 @@ module.exports = {
       },
 
       fontFamily: {
-        'Pinky': "'Pinky Unicorn', sans-serif",
+        'pinky': "'pinky-unicorn' , sans-serif",
       },
       fontSize: {
         'custom-xl': '22px',
@@ -54,7 +54,6 @@ module.exports = {
       },
       backgroundImage: {
         'bg': "url('/public/assets/images/png/body-image.png')",
-        
       }
     },
   },

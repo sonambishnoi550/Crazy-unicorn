@@ -2,50 +2,59 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-400 to-pink-200 flex items-center justify-center p-8">
-      <div className="max-w-5xl bg-white/30 backdrop-blur-lg rounded-lg p-8 shadow-lg flex flex-wrap">
-        {/* Left Section */}
-        <div className="flex-1 flex justify-center items-center">
-          <img
-            src="/path/to/large-unicorn.png"
-            alt="Large Unicorn"
-            className="w-3/4 md:w-full rounded-lg"
-          />
-        </div>
-        <div className="flex-1">
-          <h1 className="text-3xl md:text-4xl font-bold text-black mb-4 flex items-center">
-            About Us
-            <img
-              src="/path/to/small-unicorn-icon.png"
-              alt="Unicorn Icon"
-              className="w-8 h-8 ml-2"
-            />
-          </h1>
-          <p className="text-black/70 mb-6">
-            Tortor suscipit non habitant natoque elementum, lectus turpis.
-            Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea
-            bibendum tempor non tempus egestas. Rhoncus sit est risus tellus
-            lorem convallis. Amet pellentesque viverra euismod eget dignissim
-            ullamcorper. In et ac amet, habitant erat fermentum eget aliquet
-            lectus. Condimentum congue nibh nisl sed quis justo, senectus
-            egestas.
-          </p>
-          <p className="text-black/70 mb-6">
-            In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit
-            gravida potenti sed. Mauris.
-          </p>
-          <button className="bg-purple-500 hover:bg-purple-700 text-white py-2 px-6 rounded-lg">
-            Mint Now
-          </button>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
-            {Array.from({ length: 6 }).map((_, index) => (
-              <img
-                key={index}
-                src="/path/to/small-unicorn.png"
-                alt={`Unicorn ${index + 1}`}
-                className="w-full rounded-lg"
-              />
-            ))}
+    <div className="min-h-screen flex items-center justify-center xl:pt-[212px] lg:pt-[160px] md:pt-[100px] pt-16 xl:pb-[231px] g:pt-[160px] md:pb-[100px] pb-16 ">
+      <div className="container">
+        <div className="lg:flex max-lg:flex-col items-center justify-between">
+          <div className="lg:w-6/12 w-full flex justify-center">
+            <div className="grid-box flex justify-center max-sm:px-4 max-sm:pb-24">
+              <div className="grid-item-1">
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="md:-mt-12" />
+              </div>
+              <div className="grid-item-2">
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+              </div>
+              <div className="grid-item-3">
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+              </div>
+              <div className="grid-item-4">
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+              </div>
+              <div className="grid-item-5">
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+              </div>
+              <div className="grid-item-6">
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-5/12 w-full">
+            <div className="flex flex-col justify-center">
+              <div className="flex relative items-center">
+                <div className="relative">
+                  <img className='max-w-[118px] absolute left-[67%] -top-[38%] max-sm:left-[58%] max-sm:-top-[83%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+                  <h2 className='lg:text-custom-8xl text-5xl text-center font-normal uppercase font-pinky lg:pb-6 pb-4'>About us</h2>
+                </div>
+              </div>
+              <p className="text-black lg:text-custom-xl text-xl pb-[10px] font-normal leading-custom-2xl lg:leading-custom-3xl">
+                Tortor suscipit non habitant natoque elementum, lectus turpis.
+                Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea
+                bibendum tempor non tempus egestas. Rhoncus sit est risus tellus
+                lorem convallis. Amet pellentesque viverra euismod eget dignissim
+                ullamcorper. In et ac amet, habitant erat fermentum eget aliquet
+                lectus. Condimentum congue nibh nisl sed quis justo, senectus
+                egestas.
+              </p>
+              <p className="text-black lg:text-custom-xl text-xl lg:pb-[53px] pb-5 font-normal leading-custom-2xl lg:leading-custom-3xl">
+                In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit
+                gravida potenti sed. Mauris.
+              </p>
+              <div className="bg-white md:max-w-[238px] max-w-[180px] border border-black flex justify-center rounded-xl relative">
+              <button className="text-gradient  md:text-custom-3xl text-2xl font-bold py-[12.3px]  ">
+                MINT NOW
+                <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 top-[16%] left-[5%]"/>
+                </button>
+                </div>
+            </div>
           </div>
         </div>
       </div>
