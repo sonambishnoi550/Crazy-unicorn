@@ -17,27 +17,39 @@ module.exports = {
       },
 
       fontFamily: {
-        'sohne': "'Sohne Schmal', sans-serif",
+        'Pinky': "'Pinky Unicorn', sans-serif",
       },
       fontSize: {
-        'custom-xxs': '6px',
-        'custom-sx': '13px',
-        'custom-xs': '15px',
+        'custom-xl': '22px',
+        'custom-2xl': '25px',
+        'custom-3xl': '35px',
+        'custom-4xl': '40px',
+        'custom-8xl': '70px',
+      
        
       },
       lineHeight: {
-        'custom-md': '115%',
-        'custom-2md': '121%',
-        'custom-lg': '125%',
+        'custom-xl': '147%',
+        'custom-2xl': '150%',
+        'custom-3xl': '174%',
        
       },
       colors: {
-        lightgreen: '#D2F038',
-        green: '#097980',
-        sky: '#00afb5',
-        lightgray: '#9dc9cc',
-        lightblack: '#a6a6a6',
-        yellow: '#D2F038',
+        "skyblue": '#24FAFF',
+        "peach": '#FF94B0',
+        "darkpeach": '#B56980',
+        "orange": '#FF8327',
+        "darkorange": '#B55F32',
+        "yellow": '#FFE527',
+        "dustyyellow": '#B59732',
+        "lightgreen": '#70FF3B',
+        "dustygreen": '#64A63E',
+        "neonblue": '#5A6EFF',
+        "dustyneonblue": '#5753AD',
+        "brightpink": '#FF488A',
+        "darkpink": '#B53E6B',
+        "darkblue": '#080952',
+        "dustygreen": '#39A3AD'
       },
       backgroundImage: {
         'bg': "url('/public/assets/images/png/body-image.png')",
