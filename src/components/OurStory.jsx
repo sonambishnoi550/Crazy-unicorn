@@ -2,7 +2,10 @@ import React from 'react'
 
 const OurStory = () => {
   return (
-    <div className='pt-[200px] pb-[150px]'>
+    <div className='pt-[200px] pb-[150px] relative'>
+      <div className='absolute left-0 top-[-9%] -z-10'>
+        <img src="./assets/images/png/about-left-star.png" alt="footer-star" />
+      </div>
       <div className="container">
         <div className="relative">
           <img className='max-w-[118px] absolute left-[57%] -top-[46%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />

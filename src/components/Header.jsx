@@ -46,9 +46,9 @@ const Header = () => {
                     ))}
                 </ul>
                 <div className='flex gap-5 max-lg:hidden'>
-                    <TwitterIcon />
-                    <InstagramIcon />
-                    <DiscordIcon/>
+                    <a href="https://x.com/?lang=en" target='_blank'><TwitterIcon /></a>
+                    <a href="https://www.instagram.com/" target='_blank'> <InstagramIcon /></a>
+                    <a href="https://discord.com" target='_blank'><DiscordIcon /></a>
                </div>
                 <div
                     className={`lg:hidden z-30 cursor-pointer`}
@@ -87,9 +87,9 @@ const Header = () => {
                         </li>
                     ))}
                     <div className='flex gap-5'>
-                        <TwitterIcon />
-                        <InstagramIcon />
-                        <DiscordIcon />
+                        <a href="https://x.com/?lang=en" target='_blank'><TwitterIcon /></a>
+                        <a href="https://www.instagram.com/" target='_blank'> <InstagramIcon /></a>
+                        <a href="https://discord.com" target='_blank'><DiscordIcon /></a>
                     </div>
                 </ul>
             </div>

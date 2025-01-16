@@ -10,7 +10,14 @@ const Faq = () => {
   };
 
   return (
-    <div id="faqs" className="bg-dark-black lg:pt-[98px] pt-0 -mt-1 pb-[178px] max-lg:pb-[60px]">
+    <div id="faqs" className="bg-dark-black lg:pt-[98px] pt-0 -mt-1 pb-[178px] max-lg:pb-[60px] relative">
+      <div className='absolute left-0 top-[-25%] -z-10'>
+        <img src="../assets/images/png/about-left-star.png" alt="footer-star" />
+      </div>
+      <div className='absolute right-0 top-[-3%] -z-10'>
+        <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
+      </div>
+
       <div className="container max-w-[1189px] mx-auto px-4">
         <div className="relative">
           <img className='max-w-[118px] absolute left-[50%] -top-[45%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
