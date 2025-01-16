@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = () => {
   return (
     <div data-aos="zoom-in" id='home' className='relative max-md:pb-10 max-w-[1920px] mx-auto'>
-      <div className='absolute md:-bottom-[54%] -bottom-[33%] -z-10 w-full'>
-        <img className='w-full lg:hidden block' src="./assets/images/png/cloud.png" alt="cloud" />
+      <div className='absolute md:-bottom-[54%] -bottom-[33%] -z-10 w-full '>
+        <img className='w-full lg:hidden block ' src="./assets/images/png/cloud.png" alt="cloud" />
         <img className='w-full rotate-180 -mt-1 lg:hidden block' src="./assets/images/png/cloud.png" alt="cloud" />
       </div>
       <div className='absolute left-0 top-[16%] max-w-[485px] max-xl:max-w-[300px] -z-10 md:block hidden'>
