@@ -52,10 +52,10 @@ const Header = () => {
                     <a href="https://discord.com" className='cursor-pointer' target='_blank'><DiscordIcon /></a>
                </div>
                 <div
-                    className={`lg:hidden z-30 cursor-pointer`}
+                    className={`lg:hidden block z-30 cursor-pointer`}
                     onClick={() => setOpen(!open)}
                 >
-                    <div className={`flex flex-col gap-[4px] items-center`}>
+                    <div className={`flex flex-col gap-[4px] relative z- items-center`}>
                         <div
                             className={`h-[2px] bg-black w-8 transition-all duration-300 ${open ? 'transform rotate-45 translate-y-[6px]' : ''
                                 } `}
@@ -72,7 +72,7 @@ const Header = () => {
                 </div>
             </div>
             <div
-                className={`fixed flex flex-col justify-center font-pinky items-center transition-all duration-500 w-full h-full left-0 lg:-top-full z-20 bg-pink ${open ? 'top-0 left-0' : '-top-full'
+                className={`fixed flex flex-col justify-center font-pinky items-center transition-all duration-500 w-full h-full left-0 lg:-top-full z-10 bg-pink ${open ? 'top-0 left-0' : '-top-full'
                     }`}
             >
                 <ul className='flex flex-col items-center gap-8'>
