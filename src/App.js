@@ -18,12 +18,12 @@ const App = () => {
       <Header/>
       <Hero />
       <OurStory />
-      {/* <AboutUs />
-      <UnicornRoadmap /> */}
+      <AboutUs />
+      <UnicornRoadmap />
       <UnicornTeam />
       <Faq />
-      {/* <LatestNews />
-      <Footer/> */}
+      <LatestNews />
+      <Footer/>
     </>
   )
 }

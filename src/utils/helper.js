@@ -26,7 +26,7 @@ export const HEADER_LIST = [
     },
     {
         title: "FAQs",
-        link: "#FAQs",
+        link: "#faqs",
         image: './assets/images/svg/nav-line.svg'
     },
 ]

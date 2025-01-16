@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { ACCORDION_DATA } from "../utils/helper";
-
+import CustomHeading from "../common/CustomHeading";
 const Faq = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
   const contentRefs = useRef([]);
@@ -21,7 +21,10 @@ const Faq = () => {
       <div className="container max-w-[1189px] mx-auto px-4">
         <div className="relative">
           <img className='max-w-[118px] absolute left-[50%] -top-[45%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
-          <h1 className='text-custom-8xl text-center font-normal uppercase font-pinky'>FAQs</h1>
+          <CustomHeading
+            text={'faqs'}
+            classStyle={'lg:!pb-5 !pb-4'}
+          />
         </div>
         <div className="pt-[60px] max-sm:pt-10">
           {ACCORDION_DATA.map((item, index) => (

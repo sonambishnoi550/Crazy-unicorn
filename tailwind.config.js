@@ -57,9 +57,9 @@ module.exports = {
       backgroundImage: {
         'bg': "url('/public/assets/images/png/body-image.png')",
       },
-      borderImage: {
-        "custom-gradient": "linear-gradient(100.7deg, rgba(182, 42, 255, 0.5) -82.68%, rgba(255, 13, 242, 0.5) 143.2%)",
-      }
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%)',
+      },
 
     },
   },

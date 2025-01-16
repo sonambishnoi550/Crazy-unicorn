@@ -34,7 +34,7 @@ const Header = () => {
                 </a>
                 <ul className='flex items-center justify-between gap-10 max-lg:hidden'>
                     {HEADER_LIST.map((obj, i) => (
-                        <li key={i}>
+                        <li className='group' key={i}>
                             <a
                                 href={obj.link}
                                 className='font-normal font-pinky text-custom-xl leading-5 text-black  transition-all duration-300'
@@ -42,6 +42,7 @@ const Header = () => {
                                 {obj.title}
                              
                             </a>
+                            <img src="../assets/images/svg/nav-line.svg" alt="nav-line" className='group-hover:block hidden transition-all duration-700 ease-in-out' />
                         </li>
                     ))}
                 </ul>
