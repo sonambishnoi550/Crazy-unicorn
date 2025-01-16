@@ -3,6 +3,12 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="flex items-center justify-center xl:pt-[212px] lg:pt-[160px] md:pt-[100px] pt-16 xl:pb-[231px] g:pt-[160px] md:pb-[100px] pb-16 ">
+      <div className='absolute left-0 bottom-[-17%] -z-10'>
+        <img src="../assets/images/png/about-left-star.png" alt="footer-star" />
+      </div>
+      <div className='absolute right-0 top-[-20%] -z-10'>
+        <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
+      </div>
       <div className="container">
         <div className="lg:flex max-lg:flex-col items-center justify-between">
           <div className="lg:w-6/12 w-full flex justify-center">
@@ -31,7 +37,7 @@ const AboutUs = () => {
             <div className="flex flex-col justify-center">
               <div className="flex relative items-center">
                 <div className="relative">
-                  <img className='max-w-[118px] absolute left-[67%] -top-[38%] max-sm:left-[58%] max-sm:-top-[83%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+                  <img className='max-w-[118px] absolute left-[67%] -top-[57%] max-sm:left-[58%] max-sm:-top-[83%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
                   <h2 className='lg:text-custom-8xl text-5xl text-center font-normal uppercase font-pinky lg:pb-6 pb-4'>About us</h2>
                 </div>
               </div>

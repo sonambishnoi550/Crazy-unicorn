@@ -5,7 +5,7 @@ import { InstagramIcon } from '../utils/icons'
 
 const Footer = () => {
   return (
-    <div className='pt-[287px] footer-bg relative -z-10'>
+    <div className='pt-[287px] relative'>
       <div className='absolute right-0 bottom-[8%] -z-10'>
         <img src="../assets/images/png/footer-rainbow.png" alt="footer-rainbow" className='pointer-events-none' />
       </div>

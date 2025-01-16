@@ -1,27 +1,24 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-
+emailjs.init("ACFWkn8tsi2tt71D6")
 const SubscribeForm = () => {
-  const [email, setEmail] = useState("");
-  const [status, setStatus] = useState("");
+  const serviceID = "service_krvtb88";
+  const templateID = "template_nd92fqi";
+  const [formValue, setFormValue] = useState({
+    email: "",
+    
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const serviceID = "service_krvtb88";
-    const templateID = "template_nd92fqi";
-    const userID = "ACFWkn8tsi2tt71D6";
-
     emailjs
-      .send(serviceID, templateID, { to_email: email }, userID)
+      .send(serviceID, templateID, formValue)
       .then(
         () => {
-          setEmail("");
+          setFormValue({
+            email: ""
+          });
           alert("Thank you for subscribing!");
-        },
-        (error) => {
-          console.error("Error:", error);
-          setStatus("Subscription failed. Please try again.");
         }
       );
   };
@@ -36,16 +33,15 @@ const SubscribeForm = () => {
           Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed
           aenean egestas ut sit.
         </p>
-
-        {/* Form */}
         <form onSubmit={handleSubmit} className="mt-6">
           <div className="sm:flex justify-center bg-white  max-sm:pe-5 max-sm:pb-4 items-center relative  px-4 border sm:max-w-[521px] mx-auto rounded-xl border-brightpink">
             <img src="../assets/images/svg/email.svg" alt="email" className="sm:block hidden" />
             <input
+              id="email"
               type="email"
               placeholder="Your email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={formValue.email}
+              onChange={(e) => setFormValue({...formValue,email:e.target.value})}
               required
               className="px-4 sm:py-6 py-4 w-80  outline-none relative z-20"
             />

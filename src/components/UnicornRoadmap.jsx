@@ -2,7 +2,16 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center relative">
+      <div className='absolute left-0 bottom-[-47%] -z-10'>
+        <img src="../assets/images/png/about-left-star.png" alt="footer-star" />
+      </div>
+      <div className='absolute right-0 top-[-20%] -z-10'>
+        <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
+      </div>
+      <div className='absolute right-0 bottom-[-70%] -z-10'>
+        <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
+      </div>
       <div className="container">
         <div className="relative">
           <img className='max-w-[118px] absolute left-[54%] -top-[31%] max-sm:left-[58%] max-sm:-top-[83%] ' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
