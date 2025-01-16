@@ -25,18 +25,18 @@ const SubscribeForm = () => {
   };
 
   return (
-    <div data-aos="zoom-in" className="text-center pt-9">
+    <div data-aos="zoom-in" className="text-center md:pt-9 ">
       <div className="container">
         <CustomHeading
           text={'Sign up for the latest news'}
           classStyle={'lg:!pb-6 !pb-4'}
         />
-        <p className="text-black max-w-[439px] mx-auto">
+        <p className="text-black text-custom-xl leading-custom-3xl max-w-[659px] mx-auto">
           Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed
           aenean egestas ut sit.
         </p>
         <form onSubmit={handleSubmit} className="mt-6">
-          <div className="sm:flex justify-center bg-white  max-sm:pe-5 max-sm:pb-4 items-center  px-4 md:h-[69px] border sm:max-w-[521px] mx-auto rounded-xl border-brightpink">
+          <div className="flex justify-center bg-white  max-sm:pe-5 max-sm:pb-3 py-3 items-center  px-4 md:h-[69px] border sm:max-w-[521px] mx-auto rounded-xl border-brightpink">
             <img src="../assets/images/svg/email.svg" alt="email" className="sm:block hidden" />
             <input
               id="email"

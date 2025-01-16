@@ -3,16 +3,16 @@ import CustomHeading from '../common/CustomHeading'
 import CustomDescription from '../common/CustomDescription'
 const OurStory = () => {
   return (
-    <div data-aos="fade-up" id='story' className='pt-[200px] pb-[159px] relative'>
-      <div className='absolute left-0 top-[-9%] -z-10'>
+    <div data-aos="fade-up" id='story' className='lg:pt-[200px] pt-24 md:pb-[159px] pb-14 relative max-w-[1920px] mx-auto'>
+      <div className='absolute left-0 top-[-9%] -z-10 max-xl:max-w-[300px]'>
         <img src="./assets/images/png/about-left-star.png" alt="footer-star" />
       </div>
       <div className="container">
         <div className="relative">
-          <img className='max-w-[118px] absolute left-[56%] -top-[70%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+          <img className='max-w-[118px] absolute left-[56%] lg:-top-[70%] -top-[106%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading
             text={'Our Story'}
-            classStyle={'lg:!pb-[22px]'}
+            classStyle={'lg:!pb-[22px] pb-5'}
           />
         </div>
         <CustomDescription classStyle={'!text-center !max-w-[1109px] !mx-auto'} text={'Vestibulum, id lacus, volutpat nec. Magna senectus enim nisi, sit. Sagittis, ac velit gravida a nullam lobortis in malesuada. Cras pellentesque convallis semper dolor at velit diam odio. Nullam quam sollicitudin urna eget. In gravida maecenas amet tincidunt feugiat tellus, pulvinar nulla. Ultricies eu lectus consequat et imperdiet eget elementum. Euismod placerat amet nisl sagittis arcu, et, sodales velit. Pretium elit volutpat orci accumsan, a ac id rutrum enim. Tellus luctus eget elit vitae eget nisl ante.'} />

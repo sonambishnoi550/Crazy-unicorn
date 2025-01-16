@@ -5,13 +5,18 @@
 @font-face {
   font-family: "pinky-unicorn";
   src: url("../public/assets/fonts/Pinky Unicorn.ttf");
+  font-weight: 400;
 }
 html,body{
   font-family: 'Comic Neue',sans-serif;
   scroll-behavior: smooth;
+ 
 }
  .body-img {
    background-image: url("../public/assets/images/png/body-image.png");
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
  }
      .text-gradient {
        background-color: white;

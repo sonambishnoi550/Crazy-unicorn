@@ -10,31 +10,31 @@ const Faq = () => {
   };
 
   return (
-    <div id="faqs" className="bg-dark-black lg:pt-[98px] pt-0 -mt-1 pb-[178px] max-lg:pb-[60px] relative">
-      <div className='absolute left-0 top-[-25%] -z-10'>
+    <div id="faqs" className="bg-dark-black lg:pt-[98px] md:pt-20 -mt-1 xl:pb-[178px] pb-9 relative max-w-[1920px] mx-auto">
+      <div className='absolute left-0 top-[-25%] -z-10 max-xl:max-w-[300px]'>
         <img src="../assets/images/png/about-left-star.png" alt="footer-star" />
       </div>
-      <div className='absolute right-0 top-[-3%] -z-10'>
+      <div className='absolute right-0 top-[-3%] -z-10 max-xl:max-w-[300px]'>
         <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
       </div>
 
       <div data-aos="flip-left" className="container max-w-[1189px] mx-auto px-4">
         <div className="relative">
-          <img className='max-w-[118px] absolute left-[50%] -top-[45%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+          <img className='max-w-[118px] absolute left-[50%] lg:-top-[68%] -top-[105%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading
             text={'faqs'}
             classStyle={'lg:!pb-5 !pb-4'}
           />
         </div>
-        <div className="pt-[60px] max-sm:pt-10">
+        <div className="xl:pt-[60px] lg:pt-10 pt-5">
           {ACCORDION_DATA.map((item, index) => (
             <div
               key={index}
-              className={`relative mb-[36px] rounded-xl `}
+              className={`relative lg:mb-[36px] mb-4 rounded-xl `}
             >
               <button
                 onClick={() => toggleAccordion(index)}
-                className={`font-medium lg:text-custom-4xl md:text-custom-3xl text-custom-xl text-black font-pinky flex justify-between items-center text-start max-sm:p-3 w-full ${openAccordion === index ? "pb-0" : "pb-0"
+                className={`font-normal lg:text-custom-4xl md:text-custom-3xl text-custom-xl text-black font-pinky flex justify-between items-center text-start max-sm:p-3 w-full ${openAccordion === index ? "pb-0" : "pb-0"
                   }`}
               >
                 {item.heading}
