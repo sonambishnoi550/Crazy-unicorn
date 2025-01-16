@@ -26,14 +26,11 @@ module.exports = {
         'custom-3xl': '35px',
         'custom-4xl': '40px',
         'custom-8xl': '70px',
-
-
       },
       lineHeight: {
         'custom-xl': '147%',
         'custom-2xl': '150%',
         'custom-3xl': '174%',
-
       },
       colors: {
         "skyblue": '#24FAFF',
@@ -55,12 +52,8 @@ module.exports = {
         "offwhite": '#F9F4FD'
       },
       backgroundImage: {
-        'bg': "url('/public/assets/images/png/body-image.png')",
-      },
-      backgroundImage: {
         'custom-gradient': 'linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%)',
       },
-
     },
   },
   plugins: [],

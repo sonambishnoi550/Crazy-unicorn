@@ -10,11 +10,12 @@ import UnicornTeam from './components/UnicornTeam'
 import Faq from './components/Faq'
 import LatestNews from './components/LatestNews'
 import Footer from './components/Footer'
+import BackToTop from './common/BackToTop'
 
 const App = () => {
   return (
     <>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <Header/>
       <Hero />
       <OurStory />
@@ -23,7 +24,8 @@ const App = () => {
       <UnicornTeam />
       <Faq />
       <LatestNews />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </>
   )
 }

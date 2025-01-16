@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const BackToTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  window.onscroll = () => {
+    if (window.scrollY > 300) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
-    <div>BackToTop</div>
-  )
-}
-
-export default BackToTop
+    <>
+      {isVisible && (
+        <button onClick={scrollToTop}
+          className="fixed bottom-5 right-5 z-20 bg-pink p-2 w-12 border-black border rounded-md flex justify-center">
+          <img src="./assets/images/svg/backtotop.svg" alt="backtotop" />
+        </button>
+      )}
+    </>
+  );
+};
+export default BackToTop;
