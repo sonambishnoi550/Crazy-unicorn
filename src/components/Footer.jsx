@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='absolute right-0 bottom-[8%] -z-10'>
         <img src="../assets/images/png/footer-rainbow.png" alt="footer-rainbow" className='pointer-events-none' />
       </div>
-      <div className='absolute left-0 bottom-[8%] -z-10'>
+      <div className='absolute left-0 bottom-[8%] -z-10 '>
         <img src="../assets/images/png/footer-stars.png" alt="footer-star" />
       </div>
       <div className="container">

@@ -52,10 +52,10 @@ module.exports = {
         "darkblue": '#080952',
         "dustygreen": '#39A3AD'
       },
-      backgroundImage: {
-        'bg': "url('/public/assets/images/png/body-image.png')",
+        backgroundImage: {
+          'custom-gradient': 'linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%)',
+        },
       }
-    },
   },
   plugins: [],
 };

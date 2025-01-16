@@ -6,7 +6,7 @@ const SubscribeForm = () => {
   const templateID = "template_nd92fqi";
   const [formValue, setFormValue] = useState({
     email: "",
-    
+
   });
 
   const handleSubmit = (e) => {
@@ -34,27 +34,25 @@ const SubscribeForm = () => {
           aenean egestas ut sit.
         </p>
         <form onSubmit={handleSubmit} className="mt-6">
-          <div className="sm:flex justify-center bg-white  max-sm:pe-5 max-sm:pb-4 items-center relative  px-4 border sm:max-w-[521px] mx-auto rounded-xl border-brightpink">
+          <div className="sm:flex justify-center bg-white  max-sm:pe-5 max-sm:pb-4 items-center  px-4 md:h-[69px] border sm:max-w-[521px] mx-auto rounded-xl border-brightpink">
             <img src="../assets/images/svg/email.svg" alt="email" className="sm:block hidden" />
             <input
               id="email"
               type="email"
               placeholder="Your email"
               value={formValue.email}
-              onChange={(e) => setFormValue({...formValue,email:e.target.value})}
+              onChange={(e) => setFormValue({ ...formValue, email: e.target.value })}
               required
-              className="px-4 sm:py-6 py-4 w-80  outline-none relative z-20"
+              className="px-4 w-80  outline-none"
             />
-            <div className="bg-white md:max-w-[156px] max-w-[130px] border border-black flex max-sm:mx-auto justify-center rounded-xl relative mb-1">
-              <button type="submit" className="text-gradient  md:text-custom-2xl text-2xl font-bold px-7 sm:py-2 py-1">
-                subscribe
-                <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 top-[16%] left-[5%]" />
-              </button>
+            <div className=" bg-custom-gradient md:max-w-[156px] relative max-w-[130px] w-full h-[49px]  flex max-sm:mx-auto justify-center rounded-xl mt-2">
+              <button className="text-custom-2xl max-md:text-2xl max-md:py-3 max-sm:py-2 max-sm:px-4 max-md:px-5 leading-[40.26px] font-pinky bg-white py-[4px] px-7 rounded-xl text-nowrap border border-black absolute -top-[7px] -left-[5px] hover:top-0 hover:left-0 transition-all duration-300"> <span className='bg-clip-text text-gradient bg-gradient-to-r from-purple to-darkPurple'>subscribe</span> </button>
             </div>
           </div>
         </form>
-      </div>
+      </div >
     </div>
+
   );
 };
 

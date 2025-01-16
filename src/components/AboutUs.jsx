@@ -1,4 +1,6 @@
 import React from "react";
+import CustomHeading from "../common/CustomHeading";
+import CustomDescription from "../common/CustomDescription";
 
 const AboutUs = () => {
   return (
@@ -38,26 +40,21 @@ const AboutUs = () => {
               <div className="flex relative items-center">
                 <div className="relative">
                   <img className='max-w-[118px] absolute left-[67%] -top-[57%] max-sm:left-[58%] max-sm:-top-[83%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
-                  <h2 className='lg:text-custom-8xl text-5xl text-center font-normal uppercase font-pinky lg:pb-6 pb-4'>About us</h2>
+                  <CustomHeading
+                    text={'about us'}
+                    classStyle={'lg:!pb-6 !pb-4'}
+                  />
                 </div>
               </div>
-              <p className="text-black lg:text-custom-xl text-xl pb-[10px] font-normal leading-custom-2xl lg:leading-custom-3xl">
-                Tortor suscipit non habitant natoque elementum, lectus turpis.
-                Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea
-                bibendum tempor non tempus egestas. Rhoncus sit est risus tellus
-                lorem convallis. Amet pellentesque viverra euismod eget dignissim
-                ullamcorper. In et ac amet, habitant erat fermentum eget aliquet
-                lectus. Condimentum congue nibh nisl sed quis justo, senectus
-                egestas.
-              </p>
+              <CustomDescription classStyle={'!pb-[10px]'} text={'Tortor suscipit non habitant natoque elementum, lectus turpis.Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea bibendum tempor non tempus egestas. Rhoncus sit est risus tellus lorem convallis. Amet pellentesque viverra euismod eget dignissim ullamcorper. In et ac amet, habitant erat fermentum eget aliquet lectus. Condimentum congue nibh nisl sed quis justo, senectus egestas.'} />
               <p className="text-black lg:text-custom-xl text-xl lg:pb-[53px] pb-5 font-normal leading-custom-2xl lg:leading-custom-3xl">
                 In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit
                 gravida potenti sed. Mauris.
               </p>
               <div className="bg-white md:max-w-[238px] max-w-[180px] border border-black flex justify-center rounded-xl relative">
-                <button className="text-gradient  md:text-custom-3xl text-2xl font-bold lg:py-5 py-3">
+                <button className="text-gradient  md:text-custom-3xl text-2xl font-bold lg:py-5 py-3 group">
                   MINT NOW
-                  <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 top-[16%] left-[5%]" />
+                  <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 group-hover:top-0 group-hover:left-0 top-[16%] left-[5%] transition-all duration-700 ease-in" />
                 </button>
               </div>
             </div>
