@@ -18,7 +18,7 @@ const Faq = () => {
         <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
       </div>
 
-      <div className="container max-w-[1189px] mx-auto px-4">
+      <div data-aos="flip-left" className="container max-w-[1189px] mx-auto px-4">
         <div className="relative">
           <img className='max-w-[118px] absolute left-[50%] -top-[45%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading

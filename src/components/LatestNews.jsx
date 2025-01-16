@@ -25,7 +25,7 @@ const SubscribeForm = () => {
   };
 
   return (
-    <div className="text-center pt-9">
+    <div data-aos="zoom-in" className="text-center pt-9">
       <div className="container">
         <CustomHeading
           text={'Sign up for the latest news'}

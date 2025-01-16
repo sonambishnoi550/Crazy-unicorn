@@ -1,7 +1,16 @@
-import React from "react";
+import React,{useEffect} from "react";
 import CustomHeading from "../common/CustomHeading";
 import CustomDescription from "../common/CustomDescription";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const AboutUs = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      offset: 100,   
+      once: true,    
+    });
+  }, []);
   return (
     <div id="about" className="flex items-center justify-center xl:pb-[231px] md:pb-[100px] pb-16 relative ">
       <div className='absolute left-0 bottom-[-17%] -z-10'>
@@ -11,7 +20,7 @@ const AboutUs = () => {
         <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
       </div>
       <div className="container">
-        <div className="lg:flex max-lg:flex-col items-center justify-between">
+        <div data-aos="fade-up" className="lg:flex max-lg:flex-col items-center justify-between">
           <div className="lg:w-6/12 w-full flex justify-center">
             <div className="grid-box flex justify-center max-sm:px-4 max-lg:pb-24">
               <div className="grid-item-1">
@@ -34,7 +43,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-5/12 w-full">
+          <div data-aos="flip-left" className="lg:w-5/12 w-full">
             <div className="flex flex-col justify-center">
               <div className="flex relative items-center">
                 <div className="relative">

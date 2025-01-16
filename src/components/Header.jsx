@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <>
-            <div className='container flex items-center justify-between w-full pt-[6px]'>
+            <div data-aos="flip-up" className='container flex items-center justify-between w-full pt-[6px]'>
                 <a href='#logo'>
                     <img
                         src="./assets/images/png/logo.png"

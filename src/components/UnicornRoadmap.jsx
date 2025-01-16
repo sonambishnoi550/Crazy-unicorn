@@ -3,7 +3,7 @@ import CustomHeading from "../common/CustomHeading";
 import CustomDescription from "../common/CustomDescription";
 const Roadmap = () => {
   return (
-    <div id="roadmap" className="flex justify-center items-center relative">
+    <div data-aos="fade-up" id="roadmap" className="flex justify-center items-center relative">
       <div className='absolute left-0 bottom-[-47%] -z-10'>
         <img src="../assets/images/png/about-left-star.png" alt="footer-star" />
       </div>

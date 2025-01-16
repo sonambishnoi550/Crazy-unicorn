@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div id='home' className='relative'>
+    <div data-aos="zoom-in" id='home' className='relative'>
       <div className='absolute left-0 top-[16%] max-w-[485px] -z-10'>
         <img src="./assets/images/png/hero-left-star.png" alt="star" />
       </div>

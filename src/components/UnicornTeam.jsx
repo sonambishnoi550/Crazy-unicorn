@@ -2,7 +2,7 @@ import React from 'react'
 import CustomHeading from '../common/CustomHeading'
 const UnicornTeam = () => {
   return (
-    <div id='team' className='pb-[147px] pt-[700px]'>
+    <div data-aos="flip-left" id='team' className='pb-[147px] pt-[700px]'>
       <div className="container pt-[150px]">
         <div className="relative ">
           <img className='max-w-[118px] absolute left-[52%] -top-[87%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
