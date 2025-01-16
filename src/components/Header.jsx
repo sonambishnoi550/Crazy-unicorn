@@ -32,7 +32,7 @@ const Header = () => {
                         className='w-[85px] pointer-events-none'
                     />
                 </a>
-                <ul className='flex items-center justify-between gap-10 max-lg:hidden'>
+                <ul className='flex items-center justify-between gap-[30px] max-lg:hidden'>
                     {HEADER_LIST.map((obj, i) => (
                         <li key={i}>
                             <a

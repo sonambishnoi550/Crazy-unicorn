@@ -3,7 +3,7 @@ import CustomHeading from '../common/CustomHeading'
 import CustomDescription from '../common/CustomDescription'
 const OurStory = () => {
   return (
-    <div data-aos="fade-up" id='story' className='lg:pt-[200px] pt-24 md:pb-[159px] pb-14 relative max-w-[1920px] mx-auto'>
+    <div data-aos="fade-up" id='story' className='lg:pt-[120px] pt-24 md:pb-[179px] pb-14 relative max-w-[1920px] mx-auto'>
       <div className='absolute left-0 top-[-9%] -z-10 max-xl:max-w-[300px]'>
         <img src="./assets/images/png/about-left-star.png" alt="footer-star" />
       </div>

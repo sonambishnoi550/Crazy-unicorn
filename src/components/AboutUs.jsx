@@ -59,7 +59,7 @@ const AboutUs = () => {
               <div className="bg-white md:max-w-[233px] max-w-[180px] border border-black flex justify-center rounded-xl relative">
                 <button className="text-gradient  md:text-custom-3xl text-2xl font-bold lg:py-5 py-3 group">
                   MINT NOW
-                  <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 max-lg:w-[230px] max-lg:h-[60px] top-[7%] left-[4%] group-hover:top-0 group-hover:left-0 transition-all duration-700 ease-in " />
+                  <img src="../assets/images/png/button-bg.png" alt="button-bg" className="absolute -z-10 max-lg:w-[230px] max-lg:h-[60px] top-[7%] left-[4%] group-hover:top-0 group-hover:left-0 transition-all duration-500 ease-in " />
                 </button>
               </div>
             </div>

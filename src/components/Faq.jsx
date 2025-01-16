@@ -18,7 +18,7 @@ const Faq = () => {
         <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
       </div>
 
-      <div data-aos="flip-left" className="container max-w-[1189px] mx-auto px-4">
+      <div data-aos="flip-left" className="container max-w-[1189px] mx-auto px-4 max-sm:pt-20">
         <div className="relative">
           <img className='max-w-[118px] absolute left-[50%] lg:-top-[68%] -top-[105%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading
@@ -26,11 +26,11 @@ const Faq = () => {
             classStyle={'lg:!pb-5 !pb-4'}
           />
         </div>
-        <div className="xl:pt-[60px] lg:pt-10 pt-5">
+        <div className="xl:pt-[0px] lg:pt-10 pt-5">
           {ACCORDION_DATA.map((item, index) => (
             <div
               key={index}
-              className={`relative lg:mb-[36px] mb-4 rounded-xl `}
+              className={`relative lg:mb-[36px] md:mb-4 rounded-xl `}
             >
               <button
                 onClick={() => toggleAccordion(index)}
