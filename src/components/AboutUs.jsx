@@ -6,24 +6,24 @@ const AboutUs = () => {
       <div className="container">
         <div className="lg:flex max-lg:flex-col items-center justify-between">
           <div className="lg:w-6/12 w-full flex justify-center">
-            <div className="grid-box flex justify-center max-sm:px-4 max-sm:pb-24">
+            <div className="grid-box flex justify-center max-sm:px-4 max-lg:pb-24">
               <div className="grid-item-1">
-                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="md:-mt-12" />
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="md:-mt-12 object-cover" />
               </div>
               <div className="grid-item-2">
-                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="object-cover" />
               </div>
               <div className="grid-item-3">
-                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="object-cover" />
               </div>
               <div className="grid-item-4">
-                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="object-cover" />
               </div>
               <div className="grid-item-5">
-                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="object-cover" />
               </div>
               <div className="grid-item-6">
-                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" />
+                <img src="../assets/images/png/about-unicorn.png" alt="unicorn" className="object-cover" />
               </div>
             </div>
           </div>

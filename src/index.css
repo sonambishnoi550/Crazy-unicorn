@@ -14,7 +14,7 @@ html,body{
  .body-img {
    background-image: url("../public/assets/images/png/body-image.png");
  }
-
+ 
  .text-gradient{
    background-color: white;
   background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
@@ -83,32 +83,42 @@ html,body{
   .grid-item-1 {
       grid-column: 1/2;
       grid-row: 1/2;
-      width: 196px;
-      height: 201px;
+      width: 150px;
+        height: 160px;
     }
   
     .grid-item-2 {
       grid-column: 2/3;
       grid-row: 1/2;
+      width: 150px;
+        height: 160px;
     }
   
     .grid-item-3 {
       grid-column: 1/2;
       grid-row: 2/3;
+      width: 150px;
+        height: 160px;
     }
   
     .grid-item-4 {
       grid-column: 2/3;
       grid-row: 2/3;
+      width: 150px;
+        height: 160px;
     }
   
     .grid-item-5 {
       grid-column: 1/2;
       grid-row: 3/4;
+      width: 150px;
+        height: 160px;
     }
   
     .grid-item-6 {
       grid-column: 2/3;
       grid-row: 3/4;
+      width: 150px;
+        height: 160px;
     }
  }

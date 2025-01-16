@@ -29,7 +29,7 @@ const SubscribeForm = () => {
   return (
     <div className="text-center xl:pt-[656px] lg:pt-[300px] pt-9">
       <div className="container">
-        <h2 className="lg:text-6xl text-4xl font-pinky uppercase pb-6">
+        <h2 className="lg:text-6xl text-5xl font-pinky uppercase pb-6">
           Sign up for the latest news
         </h2>
         <p className="text-black max-w-[439px] mx-auto">
