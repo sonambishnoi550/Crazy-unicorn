@@ -32,7 +32,7 @@ const Faq = () => {
               key={index}
               className={`relative lg:mb-[36px] md:mb-4 rounded-xl `}
             >
-              <button
+              <button data-aos="flip-left"
                 onClick={() => toggleAccordion(index)}
                 className={`font-normal lg:text-custom-4xl md:text-custom-3xl text-custom-xl text-black font-pinky flex justify-between items-center text-start max-sm:p-3 w-full ${openAccordion === index ? "pb-0" : "pb-0"
                   }`}
