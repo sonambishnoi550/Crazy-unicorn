@@ -34,15 +34,18 @@ const Header = () => {
                 </a>
                 <ul className='flex items-center justify-between gap-10 max-lg:hidden'>
                     {HEADER_LIST.map((obj, i) => (
-                        <li className='group' key={i}>
+                        <li key={i}>
                             <a
                                 href={obj.link}
-                                className='font-normal font-pinky text-custom-xl leading-5 text-black  transition-all duration-300'
+                                className='font-normal font-pinky text-custom-xl group leading-5 text-black relative transition-all duration-300'
                             >
                                 {obj.title}
-                             
+                                <img
+                                    src="./assets/images/svg/nav-line.svg"
+                                    alt="underline"
+                                    className="absolute left-0 bottom-[-57%] h-[9.94px] w-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                                />
                             </a>
-                            <img src="../assets/images/svg/nav-line.svg" alt="nav-line" className='group-hover:block hidden transition-all duration-700 ease-in-out' />
                         </li>
                     ))}
                 </ul>
