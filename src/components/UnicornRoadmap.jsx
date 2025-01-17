@@ -15,7 +15,7 @@ const Roadmap = () => {
       </div>
       <div className="container max-sm:pt-10">
         <div className="relative">
-          <img className='max-w-[118px] absolute left-[54%] lg:-top-[31%] -top-[104%] max-sm:left-[58%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+          <img className='max-w-[118px] absolute left-[54%] lg:-top-[31%] -top-[104%] max-sm:left-[58%] pointer-events-none' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading
             text={'Roadmap'}
             classStyle={'lg:!pb-[117px] sm:!pb-8 !pb-4'}

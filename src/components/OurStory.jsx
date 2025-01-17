@@ -3,13 +3,13 @@ import CustomHeading from '../common/CustomHeading'
 import CustomDescription from '../common/CustomDescription'
 const OurStory = () => {
   return (
-    <div data-aos="fade-up" id='story' className='lg:pt-[120px] pt-24 md:pb-[179px] pb-14 relative max-w-[1920px] mx-auto'>
+    <div data-aos="fade-up" id='story' className='lg:pt-[120px] pt-24 lg:pb-[179px] md:pb-[140px] pb-14 relative max-w-[1920px] mx-auto'>
       <div className='absolute left-0 top-[-9%] -z-10 max-xl:max-w-[300px]'>
         <img src="./assets/images/png/about-left-star.png" alt="footer-star" />
       </div>
       <div className="container">
         <div className="relative">
-          <img className='max-w-[118px] absolute left-[56%] lg:-top-[70%] -top-[106%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+          <img className='max-w-[118px] absolute left-[56%] lg:-top-[70%] -top-[106%] pointer-events-none' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading
             text={'Our Story'}
             classStyle={'lg:!pb-[22px] pb-5'}

@@ -44,7 +44,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div data-aos="flip-left" className="xl:w-5/12 w-full">
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-center xl:pt-16">
               <div className="flex relative items-center">
                 <div className="relative max-xl:flex max-xl:mx-auto">
                   <img className='max-w-[118px] absolute left-[72%] lg:-top-[66%] max-sm:left-[58%] -top-[112%] pointer-events-none' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />

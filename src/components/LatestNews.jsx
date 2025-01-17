@@ -31,7 +31,7 @@ const SubscribeForm = () => {
           text={'Sign up for the latest news'}
           classStyle={'lg:!pb-6 !pb-4'}
         />
-        <p className="text-black text-custom-xl leading-custom-3xl max-w-[659px] mx-auto">
+        <p className="text-black text-custom-xl md:leading-custom-3xl leading-custom-2xl max-w-[659px] mx-auto">
           Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed
           aenean egestas ut sit.
         </p>
@@ -48,7 +48,7 @@ const SubscribeForm = () => {
               className="px-4 w-80  outline-none"
             />
             <div className=" bg-custom-gradient md:max-w-[156px] relative w-full md:h-[49px] h-[47px] flex max-sm:mx-auto justify-center rounded-xl mt-2">
-              <button className="text-custom-2xl max-md:text-2xl max-md:py-3 max-sm:py-2 max-sm:px-4 max-md:px-5 leading-[40.26px] font-pinky bg-white py-[4px] px-7 rounded-xl text-nowrap border border-black absolute -top-[7px] -left-[5px] hover:top-0 hover:left-0 transition-all duration-300"> <span className='bg-clip-text text-gradient bg-gradient-to-r from-purple to-darkPurple'>subscribe</span> </button>
+              <button className="text-custom-2xl max-md:text-2xl max-md:py-3 max-sm:py-2 max-sm:px-[10px] max-md:px-5 leading-[40.26px] font-pinky bg-white py-[4px] px-7 rounded-xl text-nowrap border border-black absolute -top-[7px] -left-[5px] hover:top-0 hover:left-0 transition-all duration-300"> <span className='bg-clip-text text-gradient bg-gradient-to-r from-purple to-darkPurple'>subscribe</span> </button>
             </div>
           </div>
         </form>

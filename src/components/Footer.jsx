@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div data-aos="fade-up" className='xl:pt-[287px] md:pt-20 pt-10 relative max-w-[1920px] mx-auto'>
       <div className='absolute bottom-0 w-full 2xl:hidden block z-10'>
-        <img className='w-full' src="./assets/images/png/cloud.png" alt="cloud" />
+        <img className='w-full pointer-events-none' src="./assets/images/png/cloud.png" alt="cloud" />
       </div>
       <div className='absolute right-0 bottom-[8%] -z-10'>
         <img src="../assets/images/png/footer-rainbow.png" alt="footer-rainbow" className='pointer-events-none max-xl:max-w-[351px] md:block hidden' />

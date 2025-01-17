@@ -20,10 +20,10 @@ const Faq = () => {
 
       <div data-aos="flip-left" className="container max-w-[1189px] mx-auto px-4 max-sm:pt-20">
         <div className="relative">
-          <img className='max-w-[118px] absolute left-[50%] lg:-top-[68%] -top-[105%]' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
+          <img className='max-w-[118px] absolute left-[50%] lg:-top-[40%] -top-[105%] pointer-events-none' src="./assets/images/png/heading-unicorn.png" alt="unicorn" />
           <CustomHeading
             text={'faqs'}
-            classStyle={'lg:!pb-5 !pb-4'}
+            classStyle={'xl:!pb-[88px] lg:!pb-6 !pb-4'}
           />
         </div>
         <div className="xl:pt-[0px] lg:pt-10 pt-5">
@@ -57,7 +57,7 @@ const Faq = () => {
               >
                 <div>
                   {item.description && (
-                    <p className="text-black font-normal md:text-custom-xl text-lg leading-custom-3xl pb-[22px] max-w-[769px] border-b border-black  ">
+                    <p className="text-black font-normal md:text-custom-xl text-lg leading-custom-3xl pb-[22px] max-w-[769px] border-b border-black/40">
                       {item.description}
                     </p>
                   )}
