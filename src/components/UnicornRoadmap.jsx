@@ -33,7 +33,7 @@ const Roadmap = () => {
             <div data-aos="fade-up" className="flex justify-start items-center">
               <div className="max-w-sm text-right xl:pt-[156px] lg:pt-12 pt-4">
                 <h3 className="text-2xl md:text-custom-4xl font-bold md:mb-4 mb-2 text-left">PHASE 1</h3>
-                <CustomDescription classStyle={'!text-lg !md:text-custom-xle !text-left'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
+                <CustomDescription classStyle={'!text-lg md:!text-custom-xl !text-left'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
               </div>
             </div>
             <div></div>
@@ -41,13 +41,13 @@ const Roadmap = () => {
             <div data-aos="fade-up" className="flex justify-end items-center">
               <div className="max-w-sm text-left max-lg:pt-4">
                 <h3 className="text-2xl md:text-custom-4xl font-bold md:mb-4 mb-2">PHASE 2</h3>
-                <CustomDescription classStyle={'!text-lg !md:text-custom-xl'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius  lobortis orci sit sit magna lorem arcu.'} />
+                <CustomDescription classStyle={'!text-lg md:!text-custom-xl'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius  lobortis orci sit sit magna lorem arcu.'} />
               </div>
             </div>
             <div data-aos="fade-up" className="flex justify-start items-center">
               <div className="max-w-sm text-left lg:pt-[70px] max-lg:pt-4">
                 <h3 className="text-2xl md:text-custom-4xl font-bold md:mb-4 mb-2">PHASE 3</h3>
-                <CustomDescription classStyle={'!text-lg !md:text-custom-xl'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
+                <CustomDescription classStyle={'!text-lg md:!text-custom-xl'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
               </div>
             </div>
             <div></div>
@@ -55,13 +55,13 @@ const Roadmap = () => {
             <div data-aos="fade-up" className="flex justify-end items-center">
               <div className="max-w-sm text-left md:ps-9 lg:pt-16 max-lg:pt-4">
                 <h3 className="text-2xl md:text-custom-4xl font-bold md:mb-4 mb-2">PHASE 4</h3>
-                <CustomDescription classStyle={'!text-lg !md:text-custom-xl'} text={' Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
+                <CustomDescription classStyle={'!text-lg md:!text-custom-xl'} text={' Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
               </div>
             </div>
             <div data-aos="fade-up" className="flex justify-start items-center">
               <div className="max-w-sm text-left xl:pt-16 max-lg:pt-4 pr-12">
                 <h3 className="text-2xl md:text-custom-4xl font-bold md:mb-4 mb-2">PHASE 5</h3>
-                <CustomDescription classStyle={'!text-lg !md:text-custom-xl'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
+                <CustomDescription classStyle={'!text-lg md:!text-custom-xl'} text={'Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing malesuada lorem ullamcorper. Faucibus netus sed varius lobortis orci sit sit magna lorem arcu.'} />
               </div>
             </div>
             <div></div>

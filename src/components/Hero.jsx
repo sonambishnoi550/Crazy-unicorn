@@ -14,7 +14,7 @@ const Hero = () => {
         <img src="./assets/images/png/hero-right-star.png" alt="star" />
       </div>
       <div className="container">
-        <img className='xl:max-w-[1149px] mx-auto lg:pt-[165px] md:pt-16 pt-6' src="./assets/images/png/hero-image.png.webp" alt="hero" />
+        <img className='xl:max-w-[1149px] mx-auto lg:pt-[165px] md:pt-16 pt-6' src="./assets/images/png/hero-image.png" alt="hero" />
       </div>
     </div>
   )

@@ -84,7 +84,7 @@ body {
   height: 201px;
 }
 
-@media (max-width:640px) {
+@media (max-width:640.98px) {
   .grid-box {
     gap: 15px;
   }

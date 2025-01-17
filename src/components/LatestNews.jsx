@@ -36,7 +36,7 @@ const SubscribeForm = () => {
           aenean egestas ut sit.
         </p>
         <form onSubmit={handleSubmit} className="mt-6">
-          <div className="flex justify-center bg-white  max-sm:pe-5 max-sm:pb-3 py-3 items-center  px-4 md:h-[69px] border sm:max-w-[521px] mx-auto rounded-xl border-brightpink">
+          <div className="flex justify-center bg-white  max-sm:pe-5 max-sm:pb-3 py-3 items-center px-4 md:h-[69px] border sm:max-w-[521px] mx-auto rounded-xl border-pink">
             <img src="../assets/images/svg/email.svg" alt="email" className="sm:block hidden" />
             <input
               id="email"
