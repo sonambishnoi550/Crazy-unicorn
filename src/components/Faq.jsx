@@ -11,10 +11,10 @@ const Faq = () => {
 
   return (
     <div id="faqs" className="bg-dark-black lg:pt-[98px] md:pt-20 -mt-1 xl:pb-[178px] pb-9 relative max-w-[1920px] mx-auto">
-      <div className='absolute left-0 top-[-25%] -z-10 max-xl:max-w-[300px]'>
+      <div className='absolute left-0 top-[-25%] -z-10 max-xl:max-w-[300px] pointer-events-none'>
         <img src="../assets/images/png/about-left-star.png" alt="footer-star" />
       </div>
-      <div className='absolute right-0 top-[-3%] -z-10 max-xl:max-w-[300px]'>
+      <div className='absolute right-0 top-[-3%] -z-10 max-xl:max-w-[300px] pointer-events-none'>
         <img src="../assets/images/png/about-right-star.png" alt="footer-star" />
       </div>
 

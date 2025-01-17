@@ -12,8 +12,8 @@ const Footer = () => {
       <div className='absolute right-0 bottom-[8%] -z-10'>
         <img src="../assets/images/png/footer-rainbow.png" alt="footer-rainbow" className='pointer-events-none max-xl:max-w-[351px] md:block hidden' />
       </div>
-      <div className='absolute left-0 bottom-[8%] -z-10 max-xl:max-w-[300px]'>
-        <img src="../assets/images/png/footer-stars.png" alt="footer-star" />
+      <div className='absolute left-0 bottom-[8%] -z-10 max-xl:max-w-[300px] pointer-events-none'>
+        <img className='pointer-events-none' src="../assets/images/png/footer-stars.png" alt="footer-star" />
       </div>
       <div className="container relative z-10">
         <a href="/" className='flex justify-center'><img src="./assets/images/png/logo.png" alt="footer-logo" /></a>
